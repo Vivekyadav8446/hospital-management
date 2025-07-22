@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>hms</title>
+</head>
+<body>
+<?php
+include("include/header.php");
+?>
+ <div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-3 mx-1 shadow">
+               <img src="images/more.jpg" style="width:110%;height: 250px;">
+
+               <h5 class="text-center">Click the button for more information</h5>
+            <a href="info.php">
+                <button class="btn btn-success my-3" style="margin-left:35%;">More !!!</button>
+            </a>
+
+            </div>
+            <div class="col-md-4 mx-1 shadow">
+            <img src="images/th.jfif" style="width:100%;">
+
+            <h5 class="text-center">Create Account so that we can take good</h5>
+            <a href="account.php">
+                <button class="btn btn-success my-3" style="margin-left:30%;">Create Account !!!</button>
+            </a>
+
+             </div>
+            <div class="col-md-4 mx-1 shadow">
+            <img src="images/gt.webp" style="width:100%;">
+
+            <h5 class="text-center">We are employing for doctors</h5>
+            <a href="apply.php">
+                <button class="btn btn-success my-3" style="margin-left:35%;">Apply Now !!!</button>
+            </a>
+            </div>
+        </div>
+    </div>
+ </div>
+</body>
+</html>
